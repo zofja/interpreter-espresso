@@ -1,0 +1,14 @@
+int(int) globalFunction(int x) {
+    return x
+}
+
+int main() {
+
+    int(void) localFunction() {
+        return globalFunction(41) + 1
+    }
+
+    int x = localFunction()
+    print(x) // stdout: 42
+
+}

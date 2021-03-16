@@ -1,0 +1,15 @@
+int main() {
+
+    print(42) // stdout: 42
+
+    print("Hello, world!") // stdout: "Hello, world!"
+
+    print(true) // stdout: True
+
+    int(void) f() {
+        return 0
+    }
+
+    print(f()) // stdout: 0
+
+}

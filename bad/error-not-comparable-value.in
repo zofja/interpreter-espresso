@@ -1,0 +1,6 @@
+int main() {
+
+    void(void) f = () => {}
+    print(f ==  1) // stderr: ErrorNotComparableValue (ExceptionValue lambda)
+
+}

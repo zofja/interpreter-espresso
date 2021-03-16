@@ -1,0 +1,10 @@
+void f(int x, int y) {
+    print(x)
+    print(y)
+}
+
+int main() {
+
+    f(1) // stderr: ErrorListsNotEqualLen
+
+}

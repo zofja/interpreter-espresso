@@ -1,0 +1,27 @@
+void(int(void)) ff(int(void) a) {
+    int x = 0
+    print(a()) // stdout: 1
+    print(x) // stdout: 0
+    return
+}
+
+int main() {
+
+    int x = 1
+    int(void) g = () => {
+        int y = x
+        x = 2
+        return y
+    }
+
+    print(x) // stdout: 1
+
+    ff(g)
+
+    void gg() {
+        print(x)
+    }
+
+    gg() // stdout: 2
+
+}

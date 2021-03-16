@@ -1,0 +1,5 @@
+int main() {
+
+    boolean b = true == 1 // stderr: ErrorNotABoolean (ExceptionValue 1)
+
+}

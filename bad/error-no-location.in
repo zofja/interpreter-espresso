@@ -1,0 +1,5 @@
+int main() {
+
+    print(x) // stderr: ErrorNoLocation (ExceptionIdent x)
+
+}

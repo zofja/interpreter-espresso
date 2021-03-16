@@ -1,0 +1,9 @@
+int main() {
+
+    print((42 - 1) % 40) // stdout: 1
+
+    print(6 * 6 + 6) // stdout: 42
+
+    print(0 < 1) // stdout: True
+
+}

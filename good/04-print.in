@@ -1,0 +1,5 @@
+int main() {
+
+    print("This is a print function") // stdout: This is a print function
+
+}

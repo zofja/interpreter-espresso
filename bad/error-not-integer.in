@@ -1,0 +1,10 @@
+int main() {
+
+    int f() {
+        return
+    }
+
+    int x = f()
+    int y = x + 1 // stderr: ErrorNotAnInteger (ExceptionValue void)
+
+}

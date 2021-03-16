@@ -1,0 +1,13 @@
+int main() {
+
+    string name = "Closure"
+    void(void) displayName() {
+        print(name)
+    }
+    displayName() // stdout: Closure
+
+    boolean f = () => { return true }
+    boolean b = f() == true
+    print(b) // stdout: True
+
+}

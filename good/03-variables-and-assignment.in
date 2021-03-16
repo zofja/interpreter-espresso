@@ -1,0 +1,22 @@
+int main() {
+
+    int i = 40 + 2
+    print(i) // stdout: 42
+
+    string s = "Hello, world!"
+    print(s) // stdout: "Hello, world!"
+
+    boolean b = 1 > 0
+    print(b) // stdout: True
+
+    int(int) f() {
+        return 0
+    }
+
+    int(int(int)) g = (int(int) f) => {
+        return f() + 1
+    }
+    print(g(f)) // stdout: 1
+
+
+}

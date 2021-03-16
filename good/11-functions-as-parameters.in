@@ -1,0 +1,13 @@
+int f(int x, void(int) callback) {
+    callback(x)
+}
+
+int main() {
+
+    void callback(int x) {
+        print(x)
+    }
+
+    f(42, callback) // stdout: 42
+
+}
